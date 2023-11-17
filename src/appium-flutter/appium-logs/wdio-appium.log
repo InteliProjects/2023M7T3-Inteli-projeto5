@@ -1,0 +1,87 @@
+[35m[Appium][39m You can provide the following URLs in your client code to connect to this server:
+[35m[Appium][39m 	http://10.128.79.99:4723/
+[35m[Appium][39m 	http://127.0.0.1:4723/ (only accessible from the same host)
+[35m[Appium][39m 	http://172.21.112.1:4723/
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.29.10 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"}}[39m
+[debug] [38;5;16m[AppiumDriver@486e][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},null,{"alwaysMatch":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},"firstMatch":[{}]}]
+[debug] [38;5;16m[AppiumDriver@486e][0m Event 'newSessionRequested' logged at 1696351811127 (13:50:11 GMT-0300 (Brasilia Standard Time))
+[35m[Appium][39m Could not parse W3C capabilities: All non-standard capabilities should have a vendor prefix. The following capabilities did not have one: deviceName,app,automationName
+[debug] [38;5;16m[AppiumDriver@486e][0m Event 'newSessionStarted' logged at 1696351811133 (13:50:11 GMT-0300 (Brasilia Standard Time))
+[debug] [38;5;16m[AppiumDriver@486e][0m Encountered internal error running command: InvalidArgumentError: All non-standard capabilities should have a vendor prefix. The following capabilities did not have one: deviceName,app,automationName
+[debug] [38;5;16m[AppiumDriver@486e][0m     at parseCaps (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\capabilities.js:252:11)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at processCapabilities (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\capabilities.js:332:43)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at parseCapsForInnerDriver (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\utils.js:151:40)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.createSession (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:279:49)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at commandExecutor (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:107:18)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:124:15)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at defaultBehavior (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:718:16)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeWrappedCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:828:16)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:734:17)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at asyncHandler (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:393:19)
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[33m400[39m [90m200 ms - 1948[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"}}[39m
+[debug] [38;5;16m[AppiumDriver@486e][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},null,{"alwaysMatch":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},"firstMatch":[{}]}]
+[debug] [38;5;16m[AppiumDriver@486e][0m Event 'newSessionRequested' logged at 1696351811381 (13:50:11 GMT-0300 (Brasilia Standard Time))
+[35m[Appium][39m Could not parse W3C capabilities: All non-standard capabilities should have a vendor prefix. The following capabilities did not have one: deviceName,app,automationName
+[debug] [38;5;16m[AppiumDriver@486e][0m Event 'newSessionStarted' logged at 1696351811386 (13:50:11 GMT-0300 (Brasilia Standard Time))
+[debug] [38;5;16m[AppiumDriver@486e][0m Encountered internal error running command: InvalidArgumentError: All non-standard capabilities should have a vendor prefix. The following capabilities did not have one: deviceName,app,automationName
+[debug] [38;5;16m[AppiumDriver@486e][0m     at parseCaps (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\capabilities.js:252:11)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at processCapabilities (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\capabilities.js:332:43)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at parseCapsForInnerDriver (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\utils.js:151:40)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.createSession (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:279:49)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at commandExecutor (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:107:18)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:124:15)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at defaultBehavior (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:718:16)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeWrappedCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:828:16)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:734:17)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at asyncHandler (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:393:19)
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[33m400[39m [90m15 ms - 1948[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"}}[39m
+[debug] [38;5;16m[AppiumDriver@486e][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},null,{"alwaysMatch":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},"firstMatch":[{}]}]
+[debug] [38;5;16m[AppiumDriver@486e][0m Event 'newSessionRequested' logged at 1696351811416 (13:50:11 GMT-0300 (Brasilia Standard Time))
+[35m[Appium][39m Could not parse W3C capabilities: All non-standard capabilities should have a vendor prefix. The following capabilities did not have one: deviceName,app,automationName
+[debug] [38;5;16m[AppiumDriver@486e][0m Event 'newSessionStarted' logged at 1696351811422 (13:50:11 GMT-0300 (Brasilia Standard Time))
+[debug] [38;5;16m[AppiumDriver@486e][0m Encountered internal error running command: InvalidArgumentError: All non-standard capabilities should have a vendor prefix. The following capabilities did not have one: deviceName,app,automationName
+[debug] [38;5;16m[AppiumDriver@486e][0m     at parseCaps (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\capabilities.js:252:11)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at processCapabilities (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\capabilities.js:332:43)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at parseCapsForInnerDriver (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\utils.js:151:40)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.createSession (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:279:49)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at commandExecutor (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:107:18)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:124:15)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at defaultBehavior (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:718:16)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeWrappedCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:828:16)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:734:17)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at asyncHandler (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:393:19)
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[33m400[39m [90m14 ms - 1948[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"}}[39m
+[debug] [38;5;16m[AppiumDriver@486e][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},null,{"alwaysMatch":{"platformName":"Android","deviceName":"emulator-5554","app":"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\naia\\Projeto5\\src\\appium-flutter\\apk\\app-release.apk","automationName":"UiAutomator2"},"firstMatch":[{}]}]
+[debug] [38;5;16m[AppiumDriver@486e][0m Event 'newSessionRequested' logged at 1696351811450 (13:50:11 GMT-0300 (Brasilia Standard Time))
+[35m[Appium][39m Could not parse W3C capabilities: All non-standard capabilities should have a vendor prefix. The following capabilities did not have one: deviceName,app,automationName
+[debug] [38;5;16m[AppiumDriver@486e][0m Event 'newSessionStarted' logged at 1696351811454 (13:50:11 GMT-0300 (Brasilia Standard Time))
+[debug] [38;5;16m[AppiumDriver@486e][0m Encountered internal error running command: InvalidArgumentError: All non-standard capabilities should have a vendor prefix. The following capabilities did not have one: deviceName,app,automationName
+[debug] [38;5;16m[AppiumDriver@486e][0m     at parseCaps (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\capabilities.js:252:11)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at processCapabilities (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\capabilities.js:332:43)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at parseCapsForInnerDriver (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\utils.js:151:40)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.createSession (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:279:49)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at commandExecutor (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:107:18)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:124:15)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at defaultBehavior (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:718:16)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeWrappedCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:828:16)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at AppiumDriver.executeCommand (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\lib\appium.js:734:17)
+[debug] [38;5;16m[AppiumDriver@486e][0m     at asyncHandler (C:\Users\danie\AppData\Roaming\nvm\v18.15.0\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:393:19)
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[33m400[39m [90m12 ms - 1948[39m
+[38;5;0m[HTTP][0m [90m[39m

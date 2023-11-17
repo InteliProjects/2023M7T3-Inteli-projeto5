@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  backend-nest:
+    image: mateusneves1/nest-api
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend-flask
+
+  backend-flask:
+    image: mateusneves1/kepler-flask-api
+    ports:
+      - "5000:5000"
